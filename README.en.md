@@ -1,24 +1,14 @@
-[![Codex quota widget](assets/social-preview.png)](https://github.com/ferretgeek/codex-quota-widget/releases/latest)
-
 # Codex quota widget
 
 [中文](README.md) · English
 
-[![Latest release](https://img.shields.io/github/v/release/ferretgeek/codex-quota-widget?display_name=tag)](https://github.com/ferretgeek/codex-quota-widget/releases/latest)
-[![License](https://img.shields.io/github/license/ferretgeek/codex-quota-widget)](LICENSE)
-[![Windows 10/11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?logo=windows&logoColor=white)](#install)
+Keep your remaining Codex quota and reset countdown in a small desktop window, with notifications when quota runs low or resets.
 
-> A small window on your desktop that tells you how much Codex quota is left and when it resets.
+**Requirements:** Windows 10/11 x64, .NET Framework 4.8, and a Codex App, CLI, or extension signed in with a ChatGPT account. The widget shows Codex plan quota; API-key sign-in is not supported for this information.
 
-## Why this exists
+[Download and install](#install) · [Supported Codex setups](#requirements) · [Troubleshooting](SUPPORT.en.md)
 
-The worst moment when coding with Codex is running out of quota halfway through a thought — one message you're refining logic, the next you're cut off.
-
-To check how much is left, you have to open Codex and go look. Doing that once is fine. Doing it ten times a day is not.
-
-So: a small window parked in the corner of your screen showing the remaining percentage of your primary Codex quota from your ChatGPT plan, plus how many days and hours until it resets. It notifies you when you're nearly out, and again when it's back.
-
-It **never asks you to paste a token, never reads your credential files, and never uploads anything.**
+No manual token copying is needed. Your local Codex runtime handles live queries; if live sync is unavailable, the widget clearly labels the value as a local snapshot.
 
 ## The interface
 

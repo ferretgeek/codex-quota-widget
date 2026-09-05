@@ -1,24 +1,14 @@
-[![Codex 额度悬浮窗](assets/social-preview.png)](https://github.com/ferretgeek/codex-quota-widget/releases/latest)
-
 # Codex 额度悬浮窗
 
 中文 · [English](README.en.md)
 
-[![最新版本](https://img.shields.io/github/v/release/ferretgeek/codex-quota-widget?display_name=tag&label=%E7%89%88%E6%9C%AC)](https://github.com/ferretgeek/codex-quota-widget/releases/latest)
-[![许可](https://img.shields.io/github/license/ferretgeek/codex-quota-widget?label=%E8%AE%B8%E5%8F%AF)](LICENSE)
-[![Windows 10/11](https://img.shields.io/badge/Windows-10%20%2F%2011-0078D4?logo=windows&logoColor=white)](#安装)
+在桌面角落显示 Codex 剩余额度和重置倒计时，额度快用完或恢复时提醒你，省去反复打开界面查看。
 
-> 桌面上一个小窗，随时告诉你 Codex 还剩多少、几点回满。
+**使用前提：** Windows 10/11 x64、.NET Framework 4.8，以及已用 ChatGPT 账户登录的 Codex App、CLI 或扩展。显示的是套餐内的 Codex 额度，API Key 登录不适用。
 
-## 为什么会需要它
+[下载安装](#安装) · [支持的 Codex 环境](#需要什么) · [常见问题](SUPPORT.md)
 
-用 Codex 写代码，最难受的是写到一半额度没了——上一句还在改逻辑，下一句就被打断。
-
-想知道还剩多少，得打开 Codex 的界面翻一下。翻一次不麻烦，一天翻十次就很烦。
-
-所以做了这个：一个一直挂在桌面角落的小窗，显示 ChatGPT 套餐里 Codex 主额度的剩余百分比和"距离重置还有几天几小时"。快用完了会弹通知，回满了也会弹通知。
-
-它**不要你复制任何 Token，不读你的凭据文件，也不上传任何东西**。
+无需手动复制 Token。实时查询由本机 Codex 运行时完成；无法实时同步时，会明确标注正在显示本地快照。
 
 ## 界面
 
